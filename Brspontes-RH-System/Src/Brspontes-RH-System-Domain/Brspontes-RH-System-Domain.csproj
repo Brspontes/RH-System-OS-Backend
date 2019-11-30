@@ -5,4 +5,13 @@
     <RootNamespace>Brspontes_RH_System_Domain</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="CandidateContext\Inputs\" />
+    <Folder Include="CandidateContext\Outputs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Brspontes-RH-System-DomainCore\Brspontes-RH-System-DomainCore.csproj" />
+  </ItemGroup>
+
 </Project>
