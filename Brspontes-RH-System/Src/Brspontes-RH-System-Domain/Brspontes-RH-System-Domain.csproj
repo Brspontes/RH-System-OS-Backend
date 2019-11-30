@@ -6,8 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CandidateContext\Inputs\" />
-    <Folder Include="CandidateContext\Outputs\" />
+    <Compile Remove="CandidateContext\Inputs\**" />
+    <Compile Remove="CandidateContext\Outputs\**" />
+    <EmbeddedResource Remove="CandidateContext\Inputs\**" />
+    <EmbeddedResource Remove="CandidateContext\Outputs\**" />
+    <None Remove="CandidateContext\Inputs\**" />
+    <None Remove="CandidateContext\Outputs\**" />
   </ItemGroup>
 
   <ItemGroup>

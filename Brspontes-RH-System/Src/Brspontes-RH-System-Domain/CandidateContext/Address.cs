@@ -13,7 +13,8 @@ namespace Brspontes_RH_System_Domain.CandidateContext
         public string State { get; set; }
         public string CEP { get; set; }
         public string PublicArea { get; set; }
-        public string district { get; set; }
+        public string District { get; set; }
         public Guid CandidateId { get; set; }
+        public Candidate Candidate { get; set; }
     }
 }
