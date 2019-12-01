@@ -15,6 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Flunt" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Brspontes-RH-System-DomainCore\Brspontes-RH-System-DomainCore.csproj" />
   </ItemGroup>
 

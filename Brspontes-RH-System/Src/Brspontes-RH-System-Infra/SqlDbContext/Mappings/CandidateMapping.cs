@@ -29,6 +29,9 @@ namespace Brspontes_RH_System_Infra.SqlDbContext.Mappings
                 .IsRequired()
                 .HasMaxLength(200);
 
+            builder.Property(p => p.Active)
+                .IsRequired();
+
             builder.HasOne(c => c.Address)
                 .WithOne(a => a.Candidate);
         }

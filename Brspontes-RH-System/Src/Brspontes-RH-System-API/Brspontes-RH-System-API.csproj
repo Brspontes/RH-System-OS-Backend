@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Brspontes-RH-System-Infra\Brspontes-RH-System-Infra.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+
 </Project>

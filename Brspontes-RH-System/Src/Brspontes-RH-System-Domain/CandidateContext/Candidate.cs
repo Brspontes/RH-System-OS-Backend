@@ -13,5 +13,6 @@ namespace Brspontes_RH_System_Domain.CandidateContext
         public string Observation { get; set; }
         public string Document { get; set; }
         public Address Address { get; set; }
+        public bool Active { get; set; }
     }
 }
