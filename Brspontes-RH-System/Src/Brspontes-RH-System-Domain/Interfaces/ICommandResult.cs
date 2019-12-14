@@ -6,5 +6,6 @@ namespace Brspontes_RH_System_Domain.Interfaces
 {
     public interface ICommandResult
     {
+        object notifications { get; set; }
     }
 }
